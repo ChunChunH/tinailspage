@@ -8,7 +8,7 @@ const Prices = () => {
                 <div className="col-12 text-center">
                     <div className="text mt-5">Precios y Promos</div>
                 </div>
-                <div className="col-6">
+                <div className="col-6 mb-5">
                     <Acoordion
                         title="Esmaltado Semipermanente"
                         content={<ul>

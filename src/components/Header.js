@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-scroll";
 
 const Header = () => {
     return (
@@ -17,19 +18,19 @@ const Header = () => {
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav">
                                 <li className="nav-item active">
-                                    <a className="nav-link" href="#">Inicio <span className="sr-only">(current)</span></a>
+                                    <Link smooth={true} to="header" className="nav-link" href="#">Inicio <span className="sr-only">(current)</span></Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Servicios</a>
+                                    <Link smooth={true} to="services" className="nav-link" href="#">Servicios</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Trabajos</a>
+                                    <Link smooth={true} to="works" className="nav-link" href="#">Trabajos</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Precios y Promos</a>
+                                    <Link smooth={true} to="prices" className="nav-link" href="#">Precios y Promos</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Contacto</a>
+                                    <Link smooth={true} to="contact" className="nav-link" href="#">Contacto</Link>
                                 </li>
                             </ul>
                         </div>
