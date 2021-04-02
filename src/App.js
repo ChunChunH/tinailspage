@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Image from "./components/Image";
 import Services from "./components/Services/Services";
 import Works from "./components/Works Slider/Works";
-import Prices from "./components/Prices";
+import Prices from "./components/Prices/Prices";
 import Contact from "./components/Contact/Contact";
 import { animateScroll as scroll} from "react-scroll";
 import { Element } from "react-scroll";

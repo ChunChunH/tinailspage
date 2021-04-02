@@ -3,8 +3,6 @@ import {useSpring, animated} from 'react-spring'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons'
 
-
-
 const Accordion = ({title, content}) => {
 
     const [isOpen, setIsOpen] = useState(false);
